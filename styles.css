@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.section {
+    position: relative;
+    background-color: #567eac;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+.question,
+.result,
+.table {
+    margin-left: 35%;
+}
+
+.question {
+    font-size: 40px;
+    color: #d6e6f2;
+}
+
+.result {
+    font-size: 55px;
+    color: #f7fbfc;
+}
+
+.table {
+    font-size: 30px;
+
+    color: #d6e6f2;
+    ;
+}
